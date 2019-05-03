@@ -50,6 +50,6 @@ userController.newUser = (req, res) => {
         }
     } else {
 
-        res.json({ success: false,message: 'Campos de usuario e senha não obrigatorios', statusCode:400});
+        res.json({ success: false,message: 'Campos de usuario e senha obrigatorios', statusCode:400});
     }
 }
